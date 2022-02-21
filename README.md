@@ -1,16 +1,17 @@
-# VelObserver-Index, MIT License
+# VelObserver-Index
+MIT License
 
 
-Ein Bike-Index für die Strassen von Zürich und weiterer Schweizer Städte       
-Jetzt auch unterstützt vom [Prototype Fund](https://prototypefund.opendata.ch/project/velobserver/)!
+A bike index for the streets of Zurich and other Swiss cities.     
+Supported by the [Prototype Fund](https://prototypefund.opendata.ch/project/velobserver/)!
 
-## Backend README
+## Backend
 https://github.com/posmocoop/velobserver-index/tree/main/backend
 
-## Frontend README
+## Frontend
 https://github.com/posmocoop/velobserver-index/blob/main/frontend/README.md
 
-## VelObserver-Index Live
+## VelObserver Index Live
 https://index.velobserver.ch
 
 
