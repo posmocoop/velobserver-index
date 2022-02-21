@@ -1,5 +1,4 @@
 # VelObserver Index
-MIT License
 
 
 A bike index for the streets of Zurich and other Swiss cities.     
