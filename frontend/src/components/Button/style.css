@@ -1,0 +1,38 @@
+.Button {
+	outline: none;
+	text-decoration: none;
+	border: none;
+	cursor: pointer;
+	padding: 8px 0;
+	border-radius: 10px;
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	width: max-content;
+	background-color: transparent;
+}
+
+.Button__fit {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.Button__apple {
+	padding: 8px 16px;
+	background-color: #83b200;
+	color: #fff !important;
+}
+
+.Button__apple:disabled {
+	background-color: #cecbc8;
+	cursor: not-allowed;
+}
+
+.Button__silver {
+	padding: 8px 16px;
+	background-color: transparent;
+	border: 1px solid #E7E7E7;
+	border-radius: 9px;
+	color: #707070 !important;
+}

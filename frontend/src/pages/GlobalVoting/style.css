@@ -1,0 +1,246 @@
+.GlobalVoting__content {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 400px;
+    min-height: calc(100vh - 82px);
+    text-align: center;
+}
+
+@media (min-width: 440px) {
+	.GlobalVoting__content {
+		max-width: none;
+	}
+}
+
+.GlobalVoting__firstPart {
+    padding: 30px 15px;
+}
+
+@media (min-width: 440px) {
+	.GlobalVoting__firstPart {
+		text-align: left;
+	}
+}
+
+.GlobalVoting__mainTitle {
+    font-size: 34px;
+    color: #83b200;
+    font-family: 'Recoleta';
+    font-weight: 400;
+    line-height: 1;
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+@media (min-width: 440px) {
+	.GlobalVoting__mainTitle {
+		text-align: left;
+	}
+}
+
+.GlobalVoting__subtitle {
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+    color: #9CA9AD;
+}
+
+.GlobalVoting__nav {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+@media (min-width: 440px) {
+	.GlobalVoting__nav {
+		margin-top: 20px;
+	}
+}
+
+.GlobalVoting__singleOption {
+    background-color: white;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    transition: all .2s;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.GlobalVoting__singleOption div {
+    color: #2d2047;
+}
+
+.GlobalVoting__singleOption:hover {
+    transform: translateY(-3px);
+}
+
+.GlobalVoting__singleOption div {
+    margin-top: 10px;
+}
+
+.GlobalVoting__order {
+    font-weight: 400;
+    font-size: 14px;
+    color: #9CA9AD;
+}
+
+.GlobalVoting__order a {
+    text-decoration: none;
+    color: #56B6EA;
+}
+
+.GlobalVoting__votesContainer {
+    border-top: 2px solid #ECEBEA;
+    padding: 30px 15px;
+}
+
+@media (min-width: 440px) {
+	.GlobalVoting__votesContainer {
+		border-top: none;
+	}
+}
+
+.GlobalVoting__votingTitle {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #AAB5B8;
+}
+
+.GlobalVoting__votes {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 440px) {
+	.GlobalVoting__votes {
+		margin-bottom: 25px;
+	}
+}
+
+.GlobalVoting__votesNumber {
+    color: #707070;
+    font-weight: 400;
+    font-size: 38px;
+}
+
+.GlobalVoting__votesDesc {
+    margin: 0;
+    font-weight: 600;
+    font-size: 12px;
+    color: #AAB5B8;
+}
+
+.GlobalVoting__votesImages {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 0 15px 30px 15px;
+    visibility: hidden;
+}
+
+.GlobalVoting__votesImages--visible {
+    visibility: visible;
+}
+
+.GlobalVoting__singleImage {
+    max-width: 120px;
+    height: 90px;
+    position: relative;
+}
+
+.GlobalVoting__singleImage img {
+    border-radius: 5px;
+    /* filter: brightness(70%); */
+    opacity: 0.5;
+}
+
+.GlobalVoting__imageMark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.GlobalVoting__contentInner {
+    position: relative;
+}
+
+@media (min-width: 440px) {
+	.GlobalVoting__contentInner {
+		display: flex;
+        padding-top: 140px;
+        gap: 56px;
+	}
+}
+
+.GlobalVoting__help {
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    right: 15px;
+}
+
+.GlobalVoting__modal {
+    max-width: 340px;
+    background-color: white;
+    color: #2d2047;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 20px 15px;
+    position: relative;
+    max-height: 73vh;
+    overflow-y: scroll;
+}
+
+@media (min-width: 440px) {
+	.GlobalVoting__modal {
+		max-width: 540px;
+        max-height: 85vh;
+	}
+}
+
+.GlobalVoting__modalClose {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.GlobalVoting__modalTitle {
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.GlobalVoting__modalSubtitle {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.GlobalVoting__modalParagraph {
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 1.3;
+}
+
+.GlobalVoting__modalLabel {
+    color: #B7C1C4;
+    font-size: 14px;
+    font-weight: 600;
+}

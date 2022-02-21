@@ -1,0 +1,30 @@
+version: '3.3'
+services:
+  db:
+    container_name: velobserver-staging-db
+    image: pgrouting/pgrouting:13-3.0-3.1.1
+    environment:
+      POSTGRES_USER: datamap
+      POSTGRES_DB: velobserver
+      POSTGRES_HOST_AUTH_METHOD: trust
+    ports:
+      - 8134:5432
+    volumes:
+      - './docker_data/postgres/data:/var/lib/postgresql/data'
+      - './docker_data/postgres/logs:/var/logs/postgresql'
+    restart: always
+  web:
+    container_name: velobserver-api-staging
+    build:
+      context: .
+    command: node ./dist/server.js
+    environment:
+      DATABASE_URL: postgres://datamap:@db:5432/velobserver
+      PORT: ${PORT}
+      NODE_ENV: ${NODE_ENV}
+      JWT_SECRET: ${JWT_TOKEN_SECRET}
+    depends_on:
+      - db
+    ports:
+      - 8135:8135
+    restart: always

@@ -1,0 +1,16 @@
+.mapboxgl-ctrl-attrib.mapboxgl-compact {
+    display: none;
+}
+
+.mapboxgl-ctrl-attrib {
+    display: none;
+}
+
+.mapboxgl-ctrl-group button {
+    width: 52px !important;
+    height: 52px !important;
+}
+
+.mapboxgl-ctrl button.mapboxgl-ctrl-geolocate .mapboxgl-ctrl-icon {
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzJweCIgaGVpZ2h0PSIzMnB4IiB2aWV3Qm94PSIwIDAgMzIgMzIiIHZlcnNpb249IjEuMSI+CjxnIGlkPSJzdXJmYWNlMSI+CjxwYXRoIHN0eWxlPSIgc3Ryb2tlOm5vbmU7ZmlsbC1ydWxlOm5vbnplcm87ZmlsbDpyZ2IoMCUsMCUsMCUpO2ZpbGwtb3BhY2l0eTowLjU0MTE3NjsiIGQ9Ik0gMjggNCBMIDQgMTQuMDM5MDYyIEwgNCAxNS4zNDc2NTYgTCAxMy4xMjEwOTQgMTguODc4OTA2IEwgMTYuNjQwNjI1IDI4IEwgMTcuOTQ1MzEyIDI4IFogTSAyOCA0ICIvPgo8L2c+Cjwvc3ZnPgo=') !important
+}

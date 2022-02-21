@@ -1,0 +1,94 @@
+.SignupPage {
+	box-sizing: border-box;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 400px;
+	padding: 20px;
+	color: #2d2047;
+}
+
+.SignupPage__logo {
+	width: 80px;
+	display: block;
+}
+
+@media (min-width: 440px) {
+	.SignupPage__logo {
+		position: fixed;
+		top: 18px;
+		left: 18px;
+	}
+}
+
+.SignupPage__header {
+	font-family: 'Recoleta';
+	font-size: 36px;
+	color: #83b200;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+@media (min-width: 440px) {
+	.SignupPage__header {
+		margin-top: 120px;
+	}
+}
+
+.SignupPage__paragraph {
+	font-weight: 400;
+	line-height: 1.4;
+    margin-bottom: 23px;
+}
+
+.SignupPage__form {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	width: 100%;
+}
+
+.SignupPage__form input {
+	width: 100%;
+}
+
+.SignupPage__formAcceptContainer {
+	margin-top: 10px;
+	display: flex;
+	gap: 10px;
+	justify-content: start;
+}
+
+.SignupPage__formAcceptContainer input {
+	width: max-content;
+	margin: 0;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+.SignupPage__formAcceptContainer label {
+	cursor: pointer;
+	user-select: none;
+}
+
+.SignupPage__buttons {
+    margin-top: 12px;
+	display: flex;
+	gap: 20px;
+}
+
+.SignupPage__errors {
+	color: red;
+}
+
+.SignupPage__link {
+	text-decoration: none;
+	color: #3dade8 !important;
+}
+
+.SignupPage__labelCheckbox {
+    line-height: 24px;
+}
+
+.SignupPage__resetButton {
+    color: #707070;
+}

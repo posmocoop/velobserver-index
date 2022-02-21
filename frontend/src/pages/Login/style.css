@@ -1,0 +1,114 @@
+.LoginPage {
+    box-sizing: border-box;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 400px;
+    padding: 20px;
+    color: #2d2047;
+}
+
+.LoginPage__logo {
+    width: 80px;
+    display: block;
+}
+
+@media (min-width: 440px) {
+	.LoginPage__logo {
+		position: fixed;
+		top: 18px;
+		left: 18px;
+	}
+}
+
+.LoginPage__logoPosmo {
+    display: block;
+}
+
+@media (min-width: 440px) {
+	.LoginPage__logoPosmo {
+		position: fixed;
+		top: 18px;
+		left: 18px;
+	}
+}
+
+.LoginPage__logo2 {
+    width: 80px;
+    display: block;
+}
+
+
+.LoginPage__header {
+	font-family: 'Recoleta';
+	font-size: 36px;
+	color: #83b200;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 440px) {
+	.LoginPage__header {
+		margin-top: 120px;
+	}
+}
+
+.LoginPage__paragraph {
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.LoginPage__form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.LoginPage__form input {
+    width: 100%;
+}
+
+.LoginPage__formAcceptContainer {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+}
+
+.LoginPage__formAcceptContainer input {
+    width: max-content;
+    margin: 0;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.LoginPage__formAcceptContainer label {
+    cursor: pointer;
+    user-select: none;
+}
+
+.LoginPage__buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.LoginPage__errors {
+    color: red;
+}
+
+.LoginPage__separator {
+    height: 1px;
+    width: 100%;
+    background-color: #E0E0E0;
+    margin-top: 36px;
+    margin-bottom: 30px;
+}
+
+.LoginPage__paragraph2 {
+    color: #707070;
+}
+
+.LoginPage__link {
+    text-decoration: none;
+    color: #3DADE8 !important;
+}

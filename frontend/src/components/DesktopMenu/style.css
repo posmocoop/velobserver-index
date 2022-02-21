@@ -1,0 +1,134 @@
+.DesktopMenuWrapper {
+	z-index: 100;
+	position: fixed;
+	top: 16px;
+	left: 16px;
+	background-color: #fff;
+	border-radius: 20px;
+	box-shadow: rgba(0, 0, 0, 0.14) 0px 3px 6px;
+}
+
+@media (max-width: 440px) {
+	.DesktopMenuWrapper {
+		display: none;
+	}
+}
+
+.DesktopMenuContainer {
+	padding: 8px 30px;
+	display: flex;
+}
+
+.DesktopMenu {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	gap: 35px;
+	margin-left: 34px;
+}
+
+.DesktopMenu__logo {
+	width: 50px;
+	padding-right: 34px;
+	border-right: 1px solid #e3e3e3;
+}
+
+.DesktopMenu__label {
+	font-size: 10px;
+}
+
+.DesktopMenu__topLink {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-size: 14px;
+	line-height: 43px;
+	text-decoration: none;
+	color: #ff565d !important;
+	padding-right: 26px;
+	border-right: 1px solid #e3e3e3;
+}
+
+.DesktopMenu__votingActions {
+	border-top: 1px solid #e3e3e3;
+	padding: 24px 20px;
+}
+
+.DesktopMenu__menuActions {
+	padding: 15px 30px;
+	border-top: 1px solid #e3e3e3;
+}
+
+.DesktopMenu__menuActionSingleItem {
+	text-decoration: none;
+	cursor: pointer;
+	user-select: none;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding: 15px 0;
+}
+
+.DesktopMenu__menuActionSingleItem--middle {
+	border-bottom: 1px solid #dbd9d9;
+}
+
+.DesktopMenu__menuActionSingleItem svg {
+	width: 25px;
+}
+
+.DesktopMenu__menuItemText {
+	color: #707070;
+	font-size: 22px;
+	font-weight: 400;
+}
+
+.DesktopMenu__segment {
+	color: #5fabe3;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.DesktopMenu__votingText {
+    max-width: 300px;
+	font-size: 22px;
+	color: #2b2245;
+	line-height: 33px;
+	margin: 20px 0 30px 0;
+}
+
+.DesktopMenu__votes {
+    width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.DesktopMenu__votes > * {
+    cursor: pointer;
+}
+
+.DesktopMenu__voteSubmitting {
+	min-height: 64px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.DesktopMenu__description {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 4px;
+	font-weight: 600;
+	user-select: none;
+}
+
+.DesktopMenu__description--bad {
+	color: #ff565d;
+}
+
+.DesktopMenu__description--good {
+	color: #1c8131;
+}
+
