@@ -1,4 +1,4 @@
-# VelObserver-Index (MIT License)
+# VelObserver-Index, MIT License
 
 
 Ein Bike-Index für die Strassen von Zürich und weiterer Schweizer Städte       
