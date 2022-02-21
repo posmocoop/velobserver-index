@@ -1,0 +1,24 @@
+.InputContainer {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.InputContainer__label {
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    font-size: 10px;
+    color: #aab5b8;
+    font-weight: 600;
+}
+
+.Input {
+    box-sizing: border-box;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    font-style: inherit;
+    border-radius: 3px;
+    padding: 22px 15px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}

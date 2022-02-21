@@ -1,0 +1,205 @@
+.GlobalVotingPhotos {
+    overflow-x: hidden;
+}
+
+.GlobalVotingPhotos__content {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 400px;
+    overflow: scroll;
+}
+
+@media (min-width: 440px) {
+	.GlobalVotingPhotos__content {
+		max-width: none;
+        margin: 0;
+	}
+}
+
+@media (min-width: 440px) {
+	.GlobalVotingPhotos__innerContent {
+		display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        gap: 90px;
+	}
+}
+
+@media (min-width: 440px) {
+	.GlobalVotingPhotos__innerContentVotes {
+		max-width: 320px;
+        text-align: left;
+	}
+}
+
+@media (min-width: 440px) {
+	.GlobalVotingPhotos__innerContentImages {
+		min-width: 800px;
+	}
+}
+
+.GlobalVotingPhotos__topLink {
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    color: #ff565d !important;
+    margin-left: 5px;
+    transform: translateY(10px);
+}
+
+@media (min-width: 440px) {
+	.GlobalVotingPhotos__topLink {
+		display: none;
+	}
+}
+
+.GlobalVotingPhotos__mainContent {
+    padding: 40px 20px;
+}
+
+@media (min-width: 440px) {
+    .GlobalVotingPhotos__mainContent {
+        padding: 140px 20px 20px 20px;
+    }
+}
+
+.GlobalVotingPhotos__title {
+    color: #83b200;
+    font-family: 'Recoleta';
+    font-weight: 600;
+    line-height: 1;
+    margin: 0;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 34px;
+}
+
+@media (min-width: 440px) {
+    .GlobalVotingPhotos__title {
+        display: none;
+    }
+}
+
+.GlobalVotingPhotos__desktopTitle {
+    color: #83b200;
+    font-family: 'Recoleta';
+    font-weight: 600;
+    line-height: 1;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 440px) {
+    .GlobalVotingPhotos__desktopTitle {
+        display: none;
+    }
+}
+
+.GlobalVotingPhotos__paragraph {
+    padding: 0 20px;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 0.04em;
+    line-height: 1.4;
+    color: #2d2047;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    user-select: none;
+}
+
+@media (min-width: 440px) {
+    .GlobalVotingPhotos__paragraph {
+        padding: 0;
+        text-align: left;
+    }
+}
+
+.GlobalVotingPhotos__paragraph div {
+    margin-left: 20px;
+}
+
+.GlobalVotingPhotos__votes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.GlobalVotingPhotos__votes > * {
+    cursor: pointer;
+}
+
+.GlobalVotingPhotos__voteSubmitting {
+    min-height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.GlobalVotingPhotos__description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4px;
+    font-weight: 600;
+    padding: 0 10px;
+    user-select: none;
+}
+
+.GlobalVotingPhotos__description--bad {
+    color: #ff565d;
+}
+
+.GlobalVotingPhotos__description--good {
+    color: #1c8131;
+}
+
+.GlobalVotingPhotos__loading {
+    min-height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 300px;
+    transform: translateX(-50%);
+}
+
+.GlobalVotingPhotos__imagesContainer {
+    position: relative;
+    min-height: 240px;
+    opacity: 1;
+}
+
+.GlobalVotingPhotos__imagesContainer--hidden {
+    opacity: 0;
+}
+
+.GlobalVotingPhotos__singleImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.GlobalVotingPhotos__list {
+    font-size: 20px;
+    text-align: left;
+}
+
+.GlobalVotingPhotos__list a {
+    color: #ff565d;
+}
+
+.GlobalVotingPhotos__list li {
+    margin-bottom: 10px;
+}
+
+.GlobalVotingPhotos__skip {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    width: min-content;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: #97A5AA;
+    font-weight: 600;
+    user-select: none;
+}

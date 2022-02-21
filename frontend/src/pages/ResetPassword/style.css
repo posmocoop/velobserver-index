@@ -1,0 +1,120 @@
+.ResetPasswordPage {
+    box-sizing: border-box;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 400px;
+    padding: 20px;
+    color: #2d2047;
+}
+
+.ResetPasswordPage__logo {
+    width: 80px;
+    display: block;
+}
+
+@media (min-width: 440px) {
+	.ResetPasswordPage__logo {
+		position: fixed;
+		top: 18px;
+		left: 18px;
+	}
+}
+
+.ResetPasswordPage__logoPosmo {
+    display: block;
+}
+
+@media (min-width: 440px) {
+	.ResetPasswordPage__logoPosmo {
+		position: fixed;
+		top: 18px;
+		left: 18px;
+	}
+}
+
+.ResetPasswordPage__logo2 {
+    width: 80px;
+    display: block;
+}
+
+
+.ResetPasswordPage__header {
+	font-family: 'Recoleta';
+	font-size: 36px;
+	color: #83b200;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 440px) {
+	.ResetPasswordPage__header {
+		margin-top: 120px;
+	}
+}
+
+.ResetPasswordPage__paragraph {
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.ResetPasswordPage__form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.ResetPasswordPage__form input {
+    width: 100%;
+}
+
+.ResetPasswordPage__formAcceptContainer {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+}
+
+.ResetPasswordPage__formAcceptContainer input {
+    width: max-content;
+    margin: 0;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.ResetPasswordPage__formAcceptContainer label {
+    cursor: pointer;
+    user-select: none;
+}
+
+.ResetPasswordPage__buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.ResetPasswordPage__errors {
+    color: red;
+}
+
+.ResetPasswordPage__separator {
+    height: 1px;
+    width: 100%;
+    background-color: #E0E0E0;
+    margin-top: 36px;
+    margin-bottom: 30px;
+}
+
+.ResetPasswordPage__paragraph2 {
+    color: #707070;
+}
+
+.ResetPasswordPage__link {
+    text-decoration: none;
+    color: #3DADE8 !important;
+}
+
+.ResetPasswordPage__paragraph3 {
+    font-size: 14px;
+    color: #707070;
+}
+

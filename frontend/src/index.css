@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.login {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+.login h3 {
+  font-size: 18px;
+}
+
+.login input {
+  outline: none;
+  border: none;
+  width: 240px;
+  margin: 0;
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.login .loginButton, .login .loginButtonPosmo {
+  outline: none;
+  border: none;
+  width: 240px;
+  height: 30px;
+  margin: 0;
+  padding: 4px 8px;
+  border: none;
+  background-color: #cfe1a4;
+  border-radius: 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.login .fpDiv {
+  margin-top: 12px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.login .dhaDiv {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.login .dhaDiv a {
+  text-decoration: underline;
+}
+
+.login .separator {
+  text-align: center;
+  margin: 24px;
+  font-size: 12px;
+}
+
+.login .tos {
+  font-size: 12px;
+  display: flex;
+  align-content: flex-start;
+  margin: 8px 0;
+  max-width: 240px;
+}
+
+.login .tos input[type="checkbox"] {
+  width: 30px;
+  outline: none;
+  border: none;
+}
+
+.login .tos a {
+  text-decoration: underline  ;
+}
+
+.login .error {
+  background-color: lightcoral;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  width: 240px;
+  padding: 12px;
+  box-sizing: border-box;
+  font-size: 12px;
+  margin: 0 0 24px 0;
+}
+
+.login .success {
+  background-color: rgb(155, 204, 157);
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  width: 240px;
+  padding: 12px;
+  box-sizing: border-box;
+  font-size: 12px;
+  margin: 0 0 24px 0;
+}
+
+.login a {
+  color:  #92a564;
+}
