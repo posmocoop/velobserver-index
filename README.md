@@ -7,11 +7,9 @@ Supported by the <a href="https://prototypefund.opendata.ch/project/velobserver/
 <img src="https://raw.githubusercontent.com/posmocoop/bike-index/main/deviceshots_together_2.png" alt="VelObserver on the phone" />
 
 
-## Backend
-<a href="https://github.com/posmocoop/velobserver-index/blob/main/backend/README.md">Backend README</a>
-
-## Frontend
-<a href="https://github.com/posmocoop/velobserver-index/blob/main/frontend/README.md">Frontend README</a>
+## Frontend and Backend
+- <a href="https://github.com/posmocoop/velobserver-index/blob/main/backend/README.md">Backend</a>
+- <a href="https://github.com/posmocoop/velobserver-index/blob/main/frontend/README.md">Frontend</a>
 
 ------
                              
