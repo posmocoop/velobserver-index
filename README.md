@@ -13,7 +13,7 @@ https://github.com/posmocoop/velobserver-index/tree/main/backend
 ## Frontend
 https://github.com/posmocoop/velobserver-index/blob/main/frontend/README.md
 
---
+------
 
 ## VelObserver Index - LIVE
 https://index.velobserver.ch
