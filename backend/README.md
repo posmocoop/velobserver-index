@@ -12,7 +12,7 @@ Here is a tutorial of how one would go about building such auth server: https://
 
 - We use AWS s3 to store the images to be rated. See: https://aws.amazon.com/s3/
 
-- We also use the imgix service for rendering the images in different resolutions and sizes
+- We also use the imgix service for rendering the images in different resolutions and sizes. 
 
 
 ### Generation of road geometries ("edges")
