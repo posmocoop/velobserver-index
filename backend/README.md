@@ -1,12 +1,5 @@
 # Velobserver
 
-### Demo
-
-To see velobserver running in production visit: https://index.velobserver.ch
-
-### Contributions
-
-
 
 ### Requirements
 
