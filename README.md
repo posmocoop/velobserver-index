@@ -8,13 +8,14 @@ Supported by the [Prototype Fund](https://prototypefund.opendata.ch/project/velo
 
 
 ## Backend
-https://github.com/posmocoop/velobserver-index/tree/main/backend
+[Backend README] (https://github.com/posmocoop/velobserver-index/blob/main/backend/README.md)
 
 ## Frontend
-https://github.com/posmocoop/velobserver-index/blob/main/frontend/README.md
+[Frontend README] (https://github.com/posmocoop/velobserver-index/blob/main/frontend/README.md)
 
 ------
-
+                             
 ## VelObserver Index - LIVE
 https://index.velobserver.ch
 
+                        
