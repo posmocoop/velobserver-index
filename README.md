@@ -8,10 +8,10 @@ Supported by the <a href="https://prototypefund.opendata.ch/project/velobserver/
 
 
 ## Backend
-<a link="https://github.com/posmocoop/velobserver-index/blob/main/backend/README.md">Backend README</a>
+<a href="https://github.com/posmocoop/velobserver-index/blob/main/backend/README.md">Backend README</a>
 
 ## Frontend
-<a link="https://github.com/posmocoop/velobserver-index/blob/main/frontend/README.md">Frontend README</a>
+<a href="https://github.com/posmocoop/velobserver-index/blob/main/frontend/README.md">Frontend README</a>
 
 ------
                              
