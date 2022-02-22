@@ -3,19 +3,19 @@
 
 ### Requirements
 
-Velobserver API uses 2 external services to make it work.
+The Velobserver API uses 2 external services
 
 - https://ipstack.com/ - using ip stack to map ip adress to location of the user. (This way we want to make sure voting from outside of city / country will have less weight then somebody who classifies roads where ISP location /GPS location is within road proximity.)
 
-- AWS s3 as store for images to be classified. see: https://aws.amazon.com/s3/
-
 - Use of external authentification server based on JWT. Here we assume you have your own auth server that is responsible for generation of JWTs. Here is a tutorial of how would one go about building such auth server: https://www.section.io/engineering-education/how-to-build-authentication-api-with-jwt-token-in-nodejs/
 
-### Generation of road geometries (we call them edges)
+- AWS s3 as store for images to be rated. See: https://aws.amazon.com/s3/
 
-Under network directory you can find python notebook that will help you generate desired geometries for your city. (see: updated_graph_generation.ipynb). After you export geometry data as gpkg or shape format, you'll need to use some tool to convert it to sql. Probably easiest way to do this is to use opensource tool QGIS. (see: https://www.qgis.org/en/site/)
+### Generation of road geometries ("edges")
 
-Alternatives to QGIS is to use CLI tools from gdal.org for example: ogrinfo tool. (see: https://gdal.org/programs/ogrinfo.html)
+In the network directory you can find a python notebook that will help you generate desired geometries for your city. (see: updated_graph_generation.ipynb). After you export the geometry data as gpkg or as shapefile, you'll need a tool to convert it to sql. We recommend to use QGIS. (see: https://www.qgis.org/en/site/)
+
+An alternative to QGIS is to use CLI tools from gdal.org, for example the ogrinfo tool. (see: https://gdal.org/programs/ogrinfo.html)
 
 ### Setup of ENV variables
 
@@ -31,9 +31,9 @@ AWS_ACCESS_KEY=
 AWS_SECRET_KEY=
 ```
 
-### Preparation of Database
+### Preparation of the Database
 
-#### Install needed extenstions
+#### Install the needed extenstions
 
 RUN `CREATE EXTENSION postgis;`
 
@@ -244,7 +244,7 @@ To start both API and DB run:
 docker-compose up -d
 ```
 
-This will install and run required docker containers.
+This will install and run the required docker containers.
 
 By default your API will be running on 8135 and DB on 8134 port.
 
