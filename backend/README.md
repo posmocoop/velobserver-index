@@ -3,13 +3,17 @@
 
 ### Requirements
 
-The Velobserver API uses 2 external services
+The Velobserver API uses external services:
 
-- https://ipstack.com/ - using ip stack to map ip adress to location of the user. (This way we want to make sure voting from outside of city / country will have less weight then somebody who classifies roads where ISP location /GPS location is within road proximity.)
+- https://ipstack.com/ - we use ip stack to map ip adress to locations of users. This way we want to make sure that the rating from outside of the city or the country will have less weight then the rating from somebody who rates roads near his ISP and/or GPS location.
 
-- Use of external authentification server based on JWT. Here we assume you have your own auth server that is responsible for generation of JWTs. Here is a tutorial of how would one go about building such auth server: https://www.section.io/engineering-education/how-to-build-authentication-api-with-jwt-token-in-nodejs/
+- We use an external authentification server based on JWT. Here we assume you have your own auth server responsible for the generation of JWTs. 
+Here is a tutorial of how one would go about building such auth server: https://www.section.io/engineering-education/how-to-build-authentication-api-with-jwt-token-in-nodejs/
 
-- AWS s3 as store for images to be rated. See: https://aws.amazon.com/s3/
+- We use AWS s3 to store the images to be rated. See: https://aws.amazon.com/s3/
+
+- We also use the imgix service for rendering the images in different resolutions and sizes
+
 
 ### Generation of road geometries ("edges")
 
